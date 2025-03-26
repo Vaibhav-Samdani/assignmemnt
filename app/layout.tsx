@@ -23,12 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scrollbar-hide">
       <Head>
       <link rel="icon" href="../public/logo-sub.png" />
     </Head>
       <body
-        className={`${dmsans.className} antialiased w-full h-full flex bg-[#171717]`}
+        className={`${dmsans.className} antialiased w-full h-full flex bg-[#171717] scrollbar-hide`}
       >
         <SidebarProvider>
         {children}

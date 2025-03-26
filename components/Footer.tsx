@@ -6,7 +6,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <main className="h-full w-full ">
+    <main className="min-h-[140vh] w-full ">
       <section>
         <video
           autoPlay
@@ -18,7 +18,7 @@ const Footer = () => {
           <source src="/bottom-video.mp4" type="video/mp4" />
         </video>
       </section>
-      <footer className="bg-[#171717] text-white py-8">
+      <footer className=" bg-[#171717] text-white py-8">
         <div className="container mx-auto px-8 lg:px-24 flex flex-col lg:flex-row justify-center items-center pt-5 md:items-start md:justify-between ">
           {/* Logo */}
           <div className=" m-5  w-full">
