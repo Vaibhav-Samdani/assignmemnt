@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geist.className} antialiased w-full h-full flex`}
+        className={`${geist.className} antialiased w-full h-full flex bg-[#171717]`}
       >
         <SidebarProvider>
         {children}
