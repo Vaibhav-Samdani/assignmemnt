@@ -209,13 +209,7 @@ const Gallery: React.FC<PinterestGalleryProps> = ({ className, maxRows = 2 }) =>
                   className="w-full h-full bg-cover bg-center relative group"
                   style={{ backgroundImage: `url(${item.imageUrl})` }}
                 >
-                  {/* Hover overlay */}
-                  <div className="absolute inset-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-end">
-                    <div className="p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <h3 className="font-bold">{item.title}</h3>
-                      <p className="text-sm">{item.description}</p>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             ))}
@@ -238,13 +232,7 @@ const Gallery: React.FC<PinterestGalleryProps> = ({ className, maxRows = 2 }) =>
                   className="w-full h-full bg-cover bg-center relative group"
                   style={{ backgroundImage: `url(${item.imageUrl})` }}
                 >
-                  {/* Hover overlay */}
-                  <div className="absolute inset-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-end">
-                    <div className="p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      <h3 className="font-bold">{item.title}</h3>
-                      <p className="text-sm">{item.description}</p>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             ))}
