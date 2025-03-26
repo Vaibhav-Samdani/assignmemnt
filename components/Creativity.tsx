@@ -47,7 +47,7 @@ const Creativity = () => {
       <section className="min-h-[150vh] bg-[#171717] overflow-x-hidden ">
         <div className="z-100 h-96 absolute left-0 w-full min-h-full mt-10">
           <div className="w-full min-h-full flex flex-col justify-evenly items-center">
-            <h1 className="text-4xl md:text-6xl font-medium gradient-text  my-30 mt-20">
+            <h1 className="text-4xl md:text-6xl font-medium gradient-text leading-normal my-30 mt-20">
               Advancing creativity <div>artificial intelligence.</div>
             </h1>
             <div className="w-full flex flex-col justify-center items-center md:items-start gap-8">
@@ -60,8 +60,8 @@ const Creativity = () => {
                 <CarouselContent ref={carouselRef} className=" gap-5 ml-0.5">
                   {Array.from({ length: 7 }).map((_, index) => (
                     <CarouselItem  key={index} className="max-w-[395px]">
-                      <div className="rounded-2xl w-[395px] h-[450px] bg-[url(/gradient.png)] flex flex-col justify-center items-start px-4 py-3 outline-[1.20px] outline-offset-[-0.60px] outline-orange-600 overflow-hidden">
-                        <div  className="bg-pink-600 w-[362px] h-[320px] mb-3 rounded-lg bg-[url(/image.jpeg)] bg-cover"></div>
+                      <div className="rounded-2xl w-96 h-96 bg-[url(/gradient.png)] flex flex-col justify-center items-start px-4 py-3 outline-[1.20px] outline-offset-[-0.60px] outline-orange-600 overflow-hidden">
+                        <div  className="bg-pink-600 w-[22rem] h-[20rem] mb-3 rounded-lg bg-[url(/image.jpeg)] bg-cover"></div>
                         <h3 className="text-white text-2xl font-medium my-2">
                           Title {index + 1}
                         </h3>

@@ -5,9 +5,9 @@ import { Button } from "./ui/button";
 const UseCase = () => {
   return (
     <>
-      <section className="min-h-[200vh] bg-[#171717] lg:min-h-[180vh]">
-        <main className="z-100  absolute left-0 w-full min-h-[180vh] flex flex-wrap ">
-          <main className="relative w-full flex flex-col items-center justify-center space-y-12 lg:space-y-0 lg:flex-row lg:justify-around min-h-screen">
+      <section className="min-h-[200vh] bg-[#171717] lg:min-h-[125vh]">
+        <main className="z-100 absolute left-0 w-ful max-h-[180vh] flex flex-wrap ">
+          <main className="relative w-full flex flex-col items-center justify-center space-y-12 lg:space-y-0 lg:flex-row lg:justify-around max-h-[80vh]">
             {/* Left Side - Text */}
             <div className="text-white max-w-lg text-center lg:text-left flex flex-col items-center lg:items-start space-y-6">
               <h1 className="text-3xl mt-10 md:text-5xl ">
@@ -34,7 +34,7 @@ const UseCase = () => {
             </div>
           </main>
 
-          <main className="relative w-full flex flex-col items-center justify-center space-y-12 lg:space-y-0 lg:flex-row lg:justify-around min-h-screen">
+          <main className="relative w-full flex flex-col items-center justify-center space-y-12 lg:space-y-0 lg:flex-row lg:justify-around mt-50 max-h-[90vh]">
             {/* Left Side - Video */}
             <div className="max-w-md">
               <video
@@ -67,7 +67,7 @@ const UseCase = () => {
           
         </main>
 
-        <div className="absolute flex items-center justify-center overflow-hidden w-full  min-h-[200vh] md:min-h-[170vh]">
+        <div className="absolute flex items-center justify-center overflow-hidden w-full  min-h-[200vh] md:min-h-[125vh]">
           <div className=" w-96 h-96 bg-gradient-to-b from-fuchsia-500/60 via-red-600/60 to-yellow-500/60 blur-[200px]" />
         </div>
       </section>

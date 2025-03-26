@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { DM_Sans, Geist, Inter } from "next/font/google";
 import "./globals.css";
 import { SidebarProvider } from "@/components/ui/sidebar";
+import Head from "next/head";
 
 
 
@@ -23,8 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+      <link rel="icon" href="../public/logo-sub.png" />
+    </Head>
       <body
-        className={`${geist.className} antialiased w-full h-full flex bg-[#171717]`}
+        className={`${dmsans.className} antialiased w-full h-full flex bg-[#171717]`}
       >
         <SidebarProvider>
         {children}

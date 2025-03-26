@@ -30,7 +30,7 @@ const Hero = () => {
       </video>
 
       {/* Navbar */}
-      <nav className="fixed w-full h-20 z-2000 flex justify-between items-center md:p-8 px-5">
+      <nav className="fixed bg-[#ffffff24] backdrop-blur-lg w-full h-20 z-2000 flex justify-between items-center md:p-8 px-5">
         <div className="logo">
           <Image
             src="/logo-main.png"
